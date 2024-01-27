@@ -1,0 +1,4 @@
+date	size'/'remotesize	flags(request:Update,Range state:File response:Modified,Chunked,gZipped)	statuscode	status ('servermsg')	MIME	Etag|Date	URL	localfile	(from URL)
+07:38:57	70/70	U-----	200	untouched ('OK')	text/plain	etag:%224-1705818544;gz%22	https://bnclimited.net/robots.txt		(from )
+07:38:58	128752/128752	U-----	200	untouched ('OK')	text/html	etag:%221-1705767641;gz%22	https://bnclimited.net/	C:/My%20Web%20Sites/chibyike/bnclimited.net/index.html	(from )
+07:38:58	93/93	---M--	403	error ('Forbidden')	text/html		https://bnclimited.net/xmlrpc.php	C:/My%20Web%20Sites/chibyike/bnclimited.net/xmlrpc.php	(from https://bnclimited.net/)

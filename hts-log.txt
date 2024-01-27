@@ -1,0 +1,14 @@
+HTTrack3.49-2+htsswf+htsjava launched on Sat, 27 Jan 2024 07:39:46 at https://account.bnclimited.net/login +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar
+(winhttrack -qiC2%Ps2u1%s%uN0%I0p3DaK0H0%kf2A25000%f#f -F "Mozilla/4.5 (compatible; HTTrack 3.0x; Windows 98)" -%F "<!-- Mirrored from %s%s by HTTrack Website Copier/3.x [XR&CO'2014], %s -->" -%l "en, *" https://account.bnclimited.net/login -O1 "C:\My Web Sites\chibyike" +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar )
+
+Information, Warnings and Errors reported for this mirror:
+note:	the hts-log.txt file, and hts-cache folder, may contain sensitive information,
+	such as username/password authentication for websites mirrored in this project
+	do not share these files/folders if you want these information to remain private
+
+07:39:49	Warning: 	Note: due to https://account.bnclimited.net remote robots.txt rules, links beginning with these path will be forbidden: /core_invapp/, /installer/, /assets/, /css/, /admin/, /auth/, /email/, /refer, /invite (see in the options to disable this)
+07:39:53	Warning: 	Found for https://account.bnclimited.net/
+07:39:53	Warning: 	File has moved from https://account.bnclimited.net/ to https://account.bnclimited.net/login
+
+HTTrack Website Copier/3.49-2 mirror complete in 8 seconds : 8 links scanned, 6 files written (159694 bytes overall), 7 files updated [67284 bytes received at 8410 bytes/sec], 143126 bytes transferred using HTTP compression in 6 files, ratio 29%, 2.6 requests per connection
+(No errors, 3 warnings, 0 messages)
