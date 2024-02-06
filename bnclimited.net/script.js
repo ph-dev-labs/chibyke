@@ -3,7 +3,7 @@ let financialAction;
 const action = ["deposited", "received"]
 
 const generateRandom  = () => {
-  const randomIndex = Math.floor(Math.random() * action.length);
+  const randomIndex = Math.floor(Math.random() * action.length) + 1;
   financialAction = action[randomIndex]
 }
 
