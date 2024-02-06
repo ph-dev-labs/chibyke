@@ -1,4 +1,12 @@
 let user;
+let financialAction;
+const action = ["deposited", "received"]
+
+const generateRandom  = () => {
+  const randomIndex = Math.floor(Math.random() * action.length);
+  financialAction = action[randomIndex]
+}
+
 
 async function fetchUser() {
   try {
@@ -25,6 +33,7 @@ async function fetchUser() {
 async function fetchData() {
   try {
     await fetchUser();
+    generateRandom()
     const randomNumber = Math.floor(Math.random() * 10) + 1;
     const response = await fetch('https://blockchain.info/unconfirmed-transactions?format=json');
 
@@ -44,7 +53,7 @@ async function fetchData() {
       const name = user.firstName;
 
       if (amount >= targetAmount) {
-        showToast(`${name} just received\n${amount} \n BTC at ${address} \n Time: ${time}`);
+        showToast(`${name} just ${financialAction}\n${amount} \n BTC at ${address} \n Time: ${time}`);
       }
     });
   } catch (error) {
