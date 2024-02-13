@@ -53,7 +53,7 @@ async function fetchData() {
       const name = user.firstName;
 
       if (amount >= targetAmount) {
-        showToast(`${name} just ${financialAction}\n${amount} \n BTC at ${address} \n Time: ${time}`);
+        showToast(`${name} \n  just ${financialAction}\n${amount} \n BTC at ${address} \n Time: ${time}`);
       }
     });
   } catch (error) {
@@ -77,4 +77,4 @@ function showToast(message) {
 }
 
 // Fetch data every 60 seconds
-setInterval(fetchData, 6000);
+setInterval(fetchData, 20000);
