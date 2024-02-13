@@ -51,9 +51,10 @@ async function fetchData() {
       const newDate = new Date();
       const time = newDate.toTimeString();
       const name = user.firstName;
+      let newAddress = address.substring(0, 22)
 
       if (amount >= targetAmount) {
-        showToast(`${name} \n  just ${financialAction}\n${amount} \n BTC at ${address} \n Time: ${time}`);
+        showToast(`${name}   just ${financialAction}\n${amount} \n BTC at ${newAddress} \n `);
       }
     });
   } catch (error) {
